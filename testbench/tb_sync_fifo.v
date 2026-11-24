@@ -70,6 +70,8 @@ module tb_sync_fifo;
 
     // Main test sequence
     initial begin
+        $dumpfile("waveforms/fifo_wave.vcd");
+        $dumpvars(0, tb_sync_fifo);
 
         rst = 1;
         wr_en = 0;
