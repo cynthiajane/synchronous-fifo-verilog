@@ -1,0 +1,5 @@
+
+# Generated simulation files
+sim/fifo_compile
+sim/fifo_test
+waveforms/*.vcd
